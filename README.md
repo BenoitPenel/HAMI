@@ -284,4 +284,4 @@ snakemake --snakefile HAMI_PIPELINE/HAMI_PIPELINE.smk --cores [#cores] all
 penelbenoit@gamil.com
 
 ## Licence
-HAMI is availale under the Creative Commons Zero v1.0 Universal license
+HAMI is availale under the Creative Commons Attribution Non Commercial 1.0 Generic
