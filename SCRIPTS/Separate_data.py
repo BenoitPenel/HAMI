@@ -118,17 +118,18 @@ with open(os.path.join(outputdir,"METABARCODING/"+name+fragment+"_Metadata_METAB
     csvwriter=csv.writer(csvfile,delimiter=";")
     header = ["observation_name", "rep", "control", "biological_unit", "project"]
     csvwriter.writerow(header)
-
+    print(METABARCODE)
     for i in METABARCODE: #DUPLICATE ONLY (TRIPLICATE NEED CHANGE)
-        if re.search(prefixMETA, i) and  re.search(r'-{}$'.format(duplicat[0]), i):
+        print(prefixMETA,i)
+        if re.search(prefixMETA, i) and  re.search(r'[-_]{}$'.format(duplicat[0]), i):
             row = [i, "1", "no", i[:-2], name]
             csvwriter.writerow(row)
-        elif re.search(prefixMETA,i) and  re.search(r'-{}$'.format(duplicat[-1]), i):
+        elif re.search(prefixMETA,i) and  re.search(r'[-_]{}$'.format(duplicat[-1]), i):
             row = [i, "2", "no", i[:-2], name]
             csvwriter.writerow(row)
-        elif re.search(r'^NC(I|E|P)', i, re.IGNORECASE) and  re.search(r'-{}$'.format(duplicat[0]), i):
+        elif re.search(r'^NC(I|E|P)', i, re.IGNORECASE) and  re.search(r'[-_]{}$'.format(duplicat[0]), i):
             row= [i, "1", "negative", i[:-2], name]
             csvwriter.writerow(row)
-        elif re.search(r'^NC(I|E|P)', i, re.IGNORECASE) and  re.search(r'-{}$'.format(duplicat[-1]), i):
+        elif re.search(r'^NC(I|E|P)', i, re.IGNORECASE) and  re.search(r'[-_]{}$'.format(duplicat[-1]), i):
             row= [i, "2", "negative", i[:-2], name]
             csvwriter.writerow(row)

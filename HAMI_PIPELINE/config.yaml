@@ -31,7 +31,7 @@ multi-hit : "[testCOI_multi-affiliations.tsv].tabular"
 ################################
 #Information about sample names : 
 #Your samples need to be discrimated based on their name. Use alphabectic prefix and number for it e.g : CMEY0001 
-#Duplicate of samples is also necessary. Discrimination between duplicates will be done using suffix : e.g : CMEY0001A / CMEY0001B
+#Duplicate of samples is also necessary. Discrimination between duplicates will be done using suffix : e.g : CMEY0001-A / CMEY0001-B or CMEY0001_A / CMEY0001_B
 
 Samplesprefix:
   Metabarcoding : "METABAR"
