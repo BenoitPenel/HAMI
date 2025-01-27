@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+e#!/usr/bin/env python
 # -*-coding: utf-8 -*
 
 """
@@ -8,7 +8,7 @@ version : 3.0
 PYTHON3
 
 
-run command : python3 BARCODE_BB.py /path/to/DATA/AGRIB_TABLE_D'ABONDANCE_RAW_fragment.csv 
+run command : python3 BARCODE_pseudogene.py /path/to/DATA/RAW_ABUNDANCE_TABLE_fragment.csv 
 
 This document filters the pseudogenous sequences of the input abundance tables
 
