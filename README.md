@@ -281,7 +281,7 @@ snakemake --snakefile HAMI_PIPELINE/HAMI_PIPELINE.smk --cores [#cores] all
 
 ## Contact
 *Benoit Penel - PhD student from CBGP laboratory, Montpellier, France.*
-penelbenoit@gamil.com
+penelbenoit@gmail.com
 
 ## Licence
 HAMI is availale under the Creative Commons Attribution Non Commercial 1.0 Generic
