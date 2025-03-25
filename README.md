@@ -4,9 +4,9 @@
 - **Please cite:** [![doi](https://img.shields.io/static/v1?label=doi&message=DOI)](DOI)
 <br />
 
-**The best of two worlds: toward large-scale monitoring of biodiversity combining COI metabarcoding and optimized parataxonomic validation (2025)**
+**The best of two worlds: toward large-scale monitoring of biodiversity combining COI metabarcoding and optimized parataxonomic validation **
 <br />
-*Penel, B., Meynard, C.N., Benoit, L., Bourdonné, A., Clamens, A.-L., Soldati, L., Migeon, A., Chapuis, M.P., Kergoat, G.J.  and  Haran, J.* <br />
+*(2025), Penel, B., Meynard, C.N., Benoit, L., Bourdonné, A., Clamens, A.-L., Soldati, L., Migeon, A., Chapuis, M.P., Kergoat, G.J.  and  Haran, J.* <br />
 *Ecography, e07699, https://doi.org/10.1111/ecog.07699*<br />
 <br />
 
